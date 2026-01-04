@@ -3,7 +3,7 @@ export const CounterContext=createContext(null);
 export const CounterProvider = (props) => {
     const [count , setCount]= useState(0);
     return(
-        <CounterContext.Provider value={{count,setCount,name:"ANKITA DAS"}}>
+        <CounterContext.Provider value={{count,setCount,name:"ANKITA"}}>
             {props.children}
         </CounterContext.Provider>
     )
